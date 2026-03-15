@@ -1,0 +1,18 @@
+# OpenClaw Skill - Ignore sensitive configuration and local state
+
+# Sensitive configuration (contains API keys)
+config.env
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
